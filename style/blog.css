@@ -1,0 +1,77 @@
+.main--blog {
+    background-color: rgba(128, 128, 128, 0.8);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+    height: 3100px;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.main--flex{
+    margin: 50px;
+}
+
+.main--flex img {
+    width: 40%;
+}
+
+.main--flex p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.main--flex h2 {
+    font-size: 2.3rem;
+}
+
+.main--flex a {
+    background-color: rgb(235, 164, 32);
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.8);
+    padding: 15px;
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.main--flex a:hover {
+    background-color: rgba(128, 128, 128, 0);
+    color: rgb(235, 164, 32);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .main--blog{
+        height: 2650px;
+    }
+}
+
+@media (max-width: 480px){
+    .main--blog{
+        height: 3250px;
+    }
+
+    .main--flex p,
+    .main--flex a{
+        font-size: 1.3rem;
+    }
+    
+    .main--flex h2{
+        font-size: 1.7rem;
+    }
+}
