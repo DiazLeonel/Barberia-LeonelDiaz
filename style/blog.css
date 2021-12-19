@@ -24,6 +24,12 @@ h1 {
     width: 40%;
 }
 
+.main--flex img:hover{
+    width: 41%;
+}
+.main--flex--p p{
+    background: radial-gradient(rgb(255, 180, 41), rgba(255, 166, 0, 0.508), rgba(255, 166, 0, 0.337))
+}
 .main--flex p {
     margin-left: 20%;
     margin-right: 20%;

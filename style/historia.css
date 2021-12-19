@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(../media/img/silla-fondo.jpg);
 }
 
@@ -11,7 +11,7 @@ body{
 /* primer div */
 
 
-.main--historia--titulos{
+.main--historia--titulos {
     background-image: url(../media/img/fondo-madera.jpg);
     background-position: center;
     height: 410px;
@@ -24,20 +24,25 @@ body{
 }
 
 
-.corteimg{
+.corteimg {
     grid-row: 1 / 3;
     grid-column: 2 / 3;
     justify-self: center;
     height: 400px;
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: flipInY;
+    animation-duration: 2s
 }
 
-.main--historia--titulos h1{
+.main--historia--titulos h1 {
     color: #fff;
     font-family: 'PT Serif', serif;
     font-size: 3rem;
 }
 
-.main--historia--titulos p{
+.main--historia--titulos p {
     color: #fff;
     font-size: 2.3rem;
     padding-bottom: 20px;
@@ -49,7 +54,7 @@ body{
 /* segundo div */
 
 
-.card__flotante{
+.card__flotante {
     width: 35%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -58,21 +63,23 @@ body{
     text-align: center;
     align-items: center;
     height: 800px;
+    
     background: #cb997e
 }
 
-
-.card__flotante h3{
+.card__flotante h3 {
     font-size: 1.8rem;
-    font-family:  'PT Serif', serif;
+    font-family: 'PT Serif', serif;
 }
 
-.card__flotante p{
+
+
+.card__flotante p {
     font-size: 1.2rem;
-    font-family:  'PT Serif', serif;
+    font-family: 'PT Serif', serif;
 }
 
-.card__flotante a{
+.card__flotante a {
     text-decoration: none;
     color: #fff;
     border: solid 3px #fff;
@@ -80,7 +87,7 @@ body{
     padding: 5px;
 }
 
-.card__flotante a:hover{
+.card__flotante a:hover {
     background-color: #6b705c;
     color: #cb997e;
     border: #6b705c solid 3px;
@@ -89,7 +96,7 @@ body{
 
 /* tercer div */
 
-.suenos{
+.suenos {
     display: flex;
     background-color: #6c757d;
     height: 130px;
@@ -99,7 +106,7 @@ body{
     font-family: 'PT Serif', serif;
 }
 
-.suenos--2{
+.suenos--2 {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr;
@@ -114,27 +121,27 @@ body{
     color: #e0e1dd;
 }
 
-.suenos--2 div{
+.suenos--2 div {
     text-align: center;
 }
 
-.div1his{
+.div1his {
     grid-column: 2/3;
 }
 
-.div2his{
+.div2his {
     grid-column: 4/5;
 }
 
-.div3his{
+.div3his {
     grid-column: 6/7;
 }
 
 
 
 @media (max-width: 480px) {
-    
-    .main--historia--titulos{
+
+    .main--historia--titulos {
         display: flex;
         flex-direction: column;
         background-size: cover;
@@ -143,43 +150,44 @@ body{
         margin: 0 auto;
         align-items: center;
     }
-    
-    .main--historia--titulos h1{
+
+    .main--historia--titulos h1 {
         font-size: 3rem;
         line-height: 1.2;
     }
 
-    .main--historia--titulos p{
+    .main--historia--titulos p {
         font-size: 1.2rem;
         padding-left: 50px;
         padding-right: 50px;
     }
 
-    .main--historia--titulos img{
+    .main--historia--titulos img {
         width: 100%;
     }
 
-    .card__flotante{
+    .card__flotante {
         height: 1000px;
         width: 90%;
         margin-top: 400px;
     }
 
-    .suenos--2{
+    .suenos--2 {
         display: flex;
         flex-direction: column;
         height: 750px;
     }
-    .suenos--2 p{
+
+    .suenos--2 p {
         margin: 20px
     }
-    
+
 }
 
 
-@media (min-width: 480px) and (max-width: 800px){
+@media (min-width: 480px) and (max-width: 800px) {
 
-    .main--historia--titulos{
+    .main--historia--titulos {
         display: flex;
         flex-direction: column;
         height: 700px;
@@ -188,23 +196,23 @@ body{
     }
 
     .main--historia--titulos h1,
-    .main--historia--titulos p{
+    .main--historia--titulos p {
         font-size: 1.7rem;
         margin: 20px;
     }
 
-    .card__flotante{
+    .card__flotante {
         width: 60%;
     }
 
-    .suenos--2{
+    .suenos--2 {
         display: flex;
         height: 1100px;
     }
 
     .div1his,
     .div2his,
-    .div3his{
+    .div3his {
         margin: 40px;
     }
 
