@@ -7,7 +7,7 @@
 
 
 
-#body__serv {
+/* #body__serv {
     background-image: none;
     box-sizing: border-box;
 }
@@ -24,7 +24,7 @@
 
 
 /* MAIN */
-
+/* 
 #main__serv {
     background-image: url(../media/img/fondo-serv.jpg);
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@
 a{
     text-decoration: none;
     color: #000;
-}
+} */
 
 
 
