@@ -3,6 +3,7 @@
     width: 90%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
     margin-bottom: 5%;
@@ -18,44 +19,38 @@ h1 {
 
 .main--flex{
     margin: 50px;
-}
+        img {
+            width: 40%;
+                &:hover{
+                    width: 41%;
+                }
+        }
+        p {
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 1.5rem;
+            margin-bottom: 2%;
+        }
+        h2 {
+            font-size: 2.3rem;
+        }
+        a {
+            background-color: rgb(235, 164, 32);
+            text-decoration: none;
+            color: rgba(128, 128, 128, 0.8);
+            padding: 15px;
+            margin: 20px;
+            font-size: 1.2rem;
+                &:hover {
+                    background-color: rgba(128, 128, 128, 0);
+                    color: rgb(235, 164, 32);
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+        }
+        }
+        
 
-.main--flex img {
-    width: 40%;
-}
-
-.main--flex img:hover{
-    width: 41%;
-}
-.main--flex--p p{
-    background: radial-gradient(rgb(255, 180, 41), rgba(255, 166, 0, 0.508), rgba(255, 166, 0, 0.337))
-}
-.main--flex p {
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 1.5rem;
-    margin-bottom: 2%;
-}
-
-.main--flex h2 {
-    font-size: 2.3rem;
-}
-
-.main--flex a {
-    background-color: rgb(235, 164, 32);
-    text-decoration: none;
-    color: rgba(128, 128, 128, 0.8);
-    padding: 15px;
-    margin: 20px;
-    font-size: 1.2rem;
-}
-
-.main--flex a:hover {
-    background-color: rgba(128, 128, 128, 0);
-    color: rgb(235, 164, 32);
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 
 footer {
     width: 100%;
