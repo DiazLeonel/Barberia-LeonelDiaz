@@ -65,25 +65,25 @@ footer {
                 }
                 .barra--nav {
                     grid-area: barra--nav;
-                        ul li {
+                         li {
                             list-style: none;
                             display: inline;
                             justify-content: space-between;
+                                a {
+                                text-decoration: none;
+                                color: #ffffff;
+                                background-color: #000000;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                                border-radius: 4px;
+                                font-weight: 100;
+                                font-size: 1.5rem;
+                                    &:hover {
+                                        color: #000000;
+                                        background-color: $bg-buttom;
+                                        border-radius: 4px;
+                                    } 
                         }
-                        ul li a {
-                            text-decoration: none;
-                            color: #ffffff;
-                            background-color: #000000;
-                            padding-left: 5px;
-                            padding-right: 5px;
-                            border-radius: 4px;
-                            font-weight: 100;
-                            font-size: 1.5rem;
-                                &:hover {
-                                    color: #000000;
-                                    background-color: rgba(255, 255, 255, 0.568);
-                                    border-radius: 4px;
-                                } 
                         }
                 }
 }
@@ -94,7 +94,7 @@ footer {
 
 
 .primero {
-    background-color: rgba(122, 120, 120, 0.651);
+    background-color: $bg-generic;
     height: 720px;
     margin: 60px 100px 0;
     border-top-left-radius: 40px;
@@ -123,14 +123,14 @@ footer {
             padding: 20px;
             a {
                 text-decoration: none;
-                color: #000000;
-                background-color: rgb(226, 190, 89);
+                color: $brown-buttom;
+                background-color: $bg-buttom;
                 border-radius: 8px;
                 font-size: 1.5rem;
                 padding: 10px;
                 &:hover {
-                    background-color: #000000;
-                    color: rgb(226, 190, 89);
+                    background-color: $brown-buttom;
+                    color: $bg-buttom;
                 }
             }
         }
@@ -210,12 +210,16 @@ footer {
                 h3 {
                     padding-top: 50px;
                     padding-bottom: 50px;
+                    font-size: 2rem;
                 }
     }
     
     
     .grid--hijo2 {
         grid-area: grid--hijo2;
+            p{
+                font-size: 1.6rem;
+            }
     }
     
     .grid--hijo3 {
@@ -224,13 +228,13 @@ footer {
         text-align: center;
             a {
                 text-decoration: none;
-                color: rgb(0, 0, 0);
-                background-color: rgb(255, 187, 0);
+                color: $brown-buttom;
+                background-color: $bg-buttom;
                 padding: 8px;
                 border-radius: 8px;
                         &:hover {
-                            background-color: rgb(0, 0, 0);
-                            color: rgb(255, 183, 0);
+                            background-color: $brown-buttom;
+                            color: $bg-buttom;
                         }
             }
             img {
@@ -245,13 +249,13 @@ footer {
         text-align: center;
             a {
                 text-decoration: none;
-                color: rgb(0, 0, 0);
-                background-color: rgb(255, 187, 0);
+                color: $brown-buttom;
+                background-color: $bg-buttom;
                 padding: 8px;
                 border-radius: 8px;
                         &:hover {
-                            background-color: rgb(0, 0, 0);
-                            color: rgb(255, 187, 0);
+                            background-color: $brown-buttom;
+                            color: $bg-buttom;
                         }
             }
             img {
@@ -310,7 +314,6 @@ footer {
     justify-content: space-around;
     text-align: center;
         h2 {
-            background-color: rgba(128, 128, 128, 0.575);
             padding: 15px;
             background-position: center;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
