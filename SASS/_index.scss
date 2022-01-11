@@ -49,7 +49,7 @@ footer {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(1, auto);
     grid-template-areas:
-        "img--header barra--nav";
+        "img--header";
     padding-top: 20px;
     margin: auto;
     padding-left: auto;
@@ -63,29 +63,41 @@ footer {
                             width: 150px;
                         }
                 }
-                .barra--nav {
-                    grid-area: barra--nav;
-                        ul li {
-                            list-style: none;
-                            display: inline;
-                            justify-content: space-between;
-                        }
-                        ul li a {
-                            text-decoration: none;
-                            color: #ffffff;
-                            background-color: #000000;
-                            padding-left: 5px;
-                            padding-right: 5px;
-                            border-radius: 4px;
-                            font-weight: 100;
-                            font-size: 1.5rem;
-                                &:hover {
-                                    color: #000000;
-                                    background-color: rgba(255, 255, 255, 0.568);
-                                    border-radius: 4px;
-                                } 
-                        }
+                header {
+                    font-family: Helvetica;
+                    width: 480px;
+                    margin: 0 auto;
                 }
+                
+                #menu {
+                    display: flex;
+                }
+                
+                ul {
+                    list-style: none;
+                    
+                }
+                
+                #menu li>a {
+                    background-color: grey;
+                    color: white;
+                    padding: 10px;
+                    display: block;
+                    text-decoration: none;
+                    min-width: 100px;
+                }
+                
+                #menu li>a:hover {
+                    color: #000;
+                    background-color: #eaeaea;
+                }
+                
+                #menu>li {
+                    float: left;
+                    text-align: center
+                }
+                
+                
 }
 
 
