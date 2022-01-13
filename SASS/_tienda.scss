@@ -1,11 +1,9 @@
-
-
-
 .tienda-h1 {
     text-align: center;
     font-size: 5rem;
     color: $orange;
     text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.637);
+    margin-bottom: 100px;
 }
 
 .tarjetas {
@@ -83,5 +81,36 @@
             color: $grey;
             background: $black;
         }
+    }
+}
+
+
+@media (max-width: 768px){
+    
+    .tienda-h1{
+        max-width: 90%;
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-top: 50px;
+    }
+    
+    .tarjetas{
+        display: flex;
+        flex-wrap: wrap;
+            .tienda-cards{
+                height: 475px;
+            }
+    }
+}
+
+@media (min-width: 280px) and (max-width:767px){
+    
+    .tienda-h1{
+        line-height: 4rem;
+        font-size: 3rem;
+    }
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
     }
 }
