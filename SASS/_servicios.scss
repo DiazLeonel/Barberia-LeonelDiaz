@@ -1,11 +1,3 @@
-#header__servicios {
-    background-image: url(../media/img/silla-fondo.jpg);
-    background-position: cover;
-    background-size: center;
-    background-attachment: fixed;
-    height: 451px;
-}
-
 /* MAIN */
 
 #main__serv {
@@ -17,11 +9,12 @@
     .h1__servicios {
         display: flex;
         justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0 auto;
         width: 90%;
         text-align: center;
-        
+
         h1 {
             align-items: center;
             text-align: center;
@@ -37,9 +30,10 @@
     .div__main--primero {
         display: flex;
         justify-content: space-around;
-        width: 90%;
+        width: 85%;
         text-align: center;
         margin: 0 auto;
+
 
         .main__barba--serv {
             display: block;
@@ -47,6 +41,7 @@
             font-family: 'Bebas Neue', cursive;
             background-color: rgba(128, 128, 128, 0.563);
             height: 600px;
+            width: 85%;
 
             h2 {
                 justify-content: center;
@@ -79,6 +74,15 @@
             }
         }
 
+        .main__serv--barba {
+            display: block;
+            justify-content: space-between;
+            font-family: 'Bebas Neue', cursive;
+            background-color: rgba(128, 128, 128, 0.563);
+            height: 650px;
+            width: 85%;
+        }
+
         .grid--hijo__video {
             padding-top: 65px;
             background-color: rgba(128, 128, 128, 0.563);
@@ -93,14 +97,14 @@
 
     .main__fotos--barba {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding-top: 30px;
         padding-bottom: 100px;
         margin: 100px;
 
         .barba--div {
             text-align: center;
-            height: 550px;
+            height: 450px;
             background-color: rgba(102, 102, 102, 0.61);
             transition: 400ms;
 
@@ -111,7 +115,7 @@
         }
 
         img {
-            width: 390px;
+            width: 300px;
             padding: 20px;
         }
 
@@ -155,14 +159,15 @@
         padding-top: 600px;
         padding-bottom: 600px;
 
-      
-       
+
+
         .iframe {
             width: 80%;
             justify-content: center;
             text-align: center;
         }
-        .grid--hijo__video{
+
+        .grid--hijo__video {
             padding-top: 100px;
         }
     }
@@ -192,14 +197,14 @@
         font-size: 1.15rem;
     }
 
-    .main__barba--serv {
-        height: 700px;
-            h2{
-                font-size: 0.1rem;
+    
+    
+            .main__serv--barba {
+                height: 1000px;
+        
+                h2 {
+                    font-size: 0.1rem;
+                }
             }
-    }
 
-    footer * {
-        font-size: 1.6rem;
-    }
 }
