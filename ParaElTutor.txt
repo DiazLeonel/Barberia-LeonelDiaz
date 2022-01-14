@@ -1,0 +1,5 @@
+1- Agregado de Meta Description a cada html.
+2- Agregado de Meta Keywords.
+3- Correcciones a faltantes h1.
+4- Optimizacion de tamaños de imagen.
+5- 
