@@ -62,7 +62,6 @@ footer {
     color: #fff;
     padding: 10px;
     display: block;
-    text-decoration: none;
     min-width: 100px; }
   .grid--nav #menu li > a:hover {
     color: #000;
@@ -97,7 +96,6 @@ footer {
     justify-content: center;
     padding: 20px; }
     .primero .botona a {
-      text-decoration: none;
       color: #e85d04;
       background-color: #000;
       border-radius: 8px;
@@ -161,7 +159,6 @@ footer {
     grid-area: grid--hijo3;
     text-align: center; }
     .section__index--contacto .grid--hijo3 a {
-      text-decoration: none;
       color: #e85d04;
       background-color: #000;
       padding: 8px;
@@ -176,7 +173,6 @@ footer {
     grid-area: grid--hijo4;
     text-align: center; }
     .section__index--contacto .grid--hijo4 a {
-      text-decoration: none;
       color: #e85d04;
       background-color: #000;
       padding: 8px;
@@ -228,8 +224,7 @@ footer {
   .container4 a {
     background-color: #5f5e5e;
     color: #f3a91f;
-    padding: 10px;
-    text-decoration: none; }
+    padding: 10px; }
     .container4 a:hover {
       background-color: #f3a91f;
       color: #5f5e5e; }
@@ -287,7 +282,6 @@ footer {
     .section__blog .section__blog--cards a {
       background-color: #ffbb00;
       color: #222222;
-      text-decoration: none;
       padding: 15px;
       padding-top: 10px;
       transform: translateY(-50%);
@@ -475,7 +469,6 @@ footer {
       #main__serv .div__main--primero .main__barba--serv a {
         background-color: #d18b08;
         border-radius: 8px;
-        text-decoration: none;
         color: #5a5959;
         font-size: 2rem;
         padding: 10px;
@@ -522,7 +515,6 @@ footer {
       padding: 30px;
       font-size: 1.9rem;
       font-family: 'Bebas Neue', cursive;
-      text-decoration: none;
       color: #5e5e5e; }
       #main__serv .main__fotos--barba .a--boton:hover {
         color: #af7302; }
@@ -579,13 +571,13 @@ body {
   justify-content: center;
   text-align: center; }
   .main__blog--img .blog__img--prim {
-    background-color: rgba(255, 68, 0, 0.418);
+    background-color: #c8af9d;
     width: 60%;
+    border-radius: 15px;
     margin: 0 auto;
     margin-bottom: 100px;
     padding-top: 35px;
-    padding-bottom: 35px;
-    border-radius: 5px; }
+    padding-bottom: 35px; }
     .main__blog--img .blog__img--prim img {
       width: 40%; }
     .main__blog--img .blog__img--prim h2 {
@@ -597,19 +589,18 @@ body {
       color: #e85d04;
       background: #000;
       padding: 15px;
-      border-radius: 8px;
-      text-decoration: none; }
+      border-radius: 8px; }
       .main__blog--img .blog__img--prim a:hover {
         color: #000;
         background-color: #e85d04; }
   .main__blog--img .blog__img--seg {
-    background-color: rgba(255, 68, 0, 0.418);
+    background-color: #977869;
     width: 60%;
+    border-radius: 15px;
     margin: 0 auto;
     margin-bottom: 100px;
     padding-top: 35px;
-    padding-bottom: 35px;
-    border-radius: 5px; }
+    padding-bottom: 35px; }
     .main__blog--img .blog__img--seg img {
       width: 40%; }
     .main__blog--img .blog__img--seg h2 {
@@ -621,19 +612,18 @@ body {
       color: #e85d04;
       background: #000;
       padding: 15px;
-      border-radius: 8px;
-      text-decoration: none; }
+      border-radius: 8px; }
       .main__blog--img .blog__img--seg a:hover {
         color: #000;
         background-color: #e85d04; }
   .main__blog--img .blog__img--ter {
-    background-color: rgba(255, 68, 0, 0.418);
+    background-color: #644236;
     width: 60%;
+    border-radius: 15px;
     margin: 0 auto;
     margin-bottom: 100px;
     padding-top: 35px;
-    padding-bottom: 35px;
-    border-radius: 5px; }
+    padding-bottom: 35px; }
     .main__blog--img .blog__img--ter img {
       width: 40%; }
     .main__blog--img .blog__img--ter h2 {
@@ -645,8 +635,7 @@ body {
       color: #e85d04;
       background: #000;
       padding: 15px;
-      border-radius: 8px;
-      text-decoration: none; }
+      border-radius: 8px; }
       .main__blog--img .blog__img--ter a:hover {
         color: #000;
         background-color: #e85d04; }
@@ -728,7 +717,6 @@ body {
     font-size: 1.2rem;
     font-family: 'PT Serif', serif; }
   .card__flotante a {
-    text-decoration: none;
     color: #fff;
     border: solid 3px #fff;
     margin: 0 auto;
@@ -851,7 +839,6 @@ body {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 1.2rem; }
     .tarjetas .tienda-cards a {
-      text-decoration: none;
       background: #e85d04;
       padding: 0 5px 0 5px;
       border-radius: 5px;
@@ -870,7 +857,6 @@ body {
   text-align: center;
   margin-bottom: 10px; }
   .select a {
-    text-decoration: none;
     color: #000;
     margin: 10px;
     background: #d9d9d9;
@@ -1051,3 +1037,6 @@ html {
   select,
   textarea {
     font-size: 0.875em; } }
+
+.tdn, .grid--nav #menu li > a, .primero .botona a, .section__index--contacto .grid--hijo3 a, .section__index--contacto .grid--hijo4 a, .container4 a, .section__blog .section__blog--cards a, #main__serv .div__main--primero .main__barba--serv a, #main__serv .main__fotos--barba .a--boton, .main__blog--img .blog__img--prim a, .main__blog--img .blog__img--seg a, .main__blog--img .blog__img--ter a, .card__flotante a, .tarjetas .tienda-cards a, .select a {
+  text-decoration: none; }

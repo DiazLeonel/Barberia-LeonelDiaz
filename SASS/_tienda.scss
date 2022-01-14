@@ -41,7 +41,7 @@
         }
 
         a {
-            text-decoration: none;
+            @extend .tdn;
             background: $orange;
             padding: 0 5px 0 5px;
             border-radius: 5px;
@@ -70,7 +70,7 @@
     margin-bottom: 10px;
 
     a {
-        text-decoration: none;
+        @extend .tdn;
         color: $black;
         margin: 10px;
         background: $grey;

@@ -70,7 +70,7 @@ body {
                 font-family: 'PT Serif', serif;
             }
             a {
-                text-decoration: none;
+                @extend .tdn;
                 color: #fff;
                 border: solid 3px #fff;
                 margin: 0 auto;

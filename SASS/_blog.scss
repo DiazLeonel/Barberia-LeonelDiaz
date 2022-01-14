@@ -24,13 +24,13 @@ body {
     text-align: center;
     
     .blog__img--prim {
-        @include tarj-flot;
+        @include tarj-flot(#c8af9d, 60%, 15px);
     }
     .blog__img--seg{
-        @include tarj-flot;
+        @include tarj-flot(#977869, 60%, 15px);
     }
     .blog__img--ter{
-        @include tarj-flot;
+        @include tarj-flot(#644236, 60%, 15px);
     }
 }
 
