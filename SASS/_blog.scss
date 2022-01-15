@@ -22,14 +22,16 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
+
     .blog__img--prim {
         @include tarj-flot(#c8af9d, 60%, 15px);
     }
-    .blog__img--seg{
+
+    .blog__img--seg {
         @include tarj-flot(#977869, 60%, 15px);
     }
-    .blog__img--ter{
+
+    .blog__img--ter {
         @include tarj-flot(#644236, 60%, 15px);
     }
 }
@@ -42,18 +44,22 @@ body {
 @media (max-width: 800px) {
     .main--blog {
         height: 2650px;
-        h1{
+
+        h1 {
             line-height: 4rem;
             font-size: 4rem;
             margin: 0 50px 0 50px;
         }
-        .blog__img--prim{
+
+        .blog__img--prim {
             @include media-blog;
         }
-        .blog__img--seg{
+
+        .blog__img--seg {
             @include media-blog;
         }
-        .blog__img--ter{
+
+        .blog__img--ter {
             @include media-blog;
         }
     }
