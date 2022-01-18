@@ -314,7 +314,7 @@ footer {
         width: 40px;
         margin-left: 20px; }
 
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .grid--nav ul {
     display: flex;
     flex-direction: column;
@@ -788,17 +788,18 @@ body {
   .main--historia--titulos {
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 750px;
     background-repeat: no-repeat;
     background-size: cover; }
     .main--historia--titulos h1, .main--historia--titulos p {
       font-size: 1.7rem;
       margin: 20px; }
   .card__flotante {
-    width: 60%; }
+    width: 60%;
+    height: 950px; }
   .suenos--2 {
     display: flex;
-    height: 1100px; }
+    height: 850px; }
     .suenos--2 .div1his,
     .suenos--2 .div2his,
     .suenos--2 .div3his {

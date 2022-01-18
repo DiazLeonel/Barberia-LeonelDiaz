@@ -513,7 +513,7 @@ footer {
 
 
 
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .grid--nav ul {
         display: flex;
         flex-direction: column;
