@@ -131,7 +131,7 @@ body {
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 420px) {
 
     .main--historia--titulos {
         display: flex;
@@ -153,9 +153,12 @@ body {
                 }
 
     .card__flotante {
-        height: 1000px;
+        height: 800px;
         width: 90%;
         margin-top: 400px;
+        p{
+            margin-bottom: 20px;
+        }
     }
 
     .suenos--2 {
