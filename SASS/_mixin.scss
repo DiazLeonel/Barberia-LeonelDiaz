@@ -9,7 +9,7 @@
     color: $orange;
 }
 
-@mixin tarj-flot($bgc, $wth, $bordr){
+@mixin tarj-flot($bgc, $wth, $bordr) {
     background-color: $bgc;
     width: $wth;
     border-radius: $bordr;
@@ -47,7 +47,8 @@
 
 @mixin media-blog {
     width: 95%;
-            p{
-                margin: 0 50px 0 50px;
-            }           
+
+    p {
+        margin: 0 50px 0 50px;
+    }
 }

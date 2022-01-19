@@ -85,31 +85,33 @@
 }
 
 
-@media (max-width: 768px){
-    
-    .tienda-h1{
+@media (max-width: 768px) {
+
+    .tienda-h1 {
         max-width: 90%;
         font-size: 4rem;
         line-height: 4rem;
         margin-top: 50px;
     }
-    
-    .tarjetas{
+
+    .tarjetas {
         display: flex;
         flex-wrap: wrap;
-            .tienda-cards{
-                height: 475px;
-            }
+
+        .tienda-cards {
+            height: 475px;
+        }
     }
 }
 
-@media (min-width: 280px) and (max-width:767px){
-    
-    .tienda-h1{
+@media (min-width: 280px) and (max-width:767px) {
+
+    .tienda-h1 {
         line-height: 4rem;
         font-size: 3rem;
     }
-    .tarjetas{
+
+    .tarjetas {
         display: flex;
         flex-direction: column;
     }

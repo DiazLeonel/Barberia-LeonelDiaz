@@ -809,7 +809,8 @@ body {
     height: 750px;
     background-repeat: no-repeat;
     background-size: cover; }
-    .main--historia--titulos h1, .main--historia--titulos p {
+    .main--historia--titulos h1,
+    .main--historia--titulos p {
       font-size: 1.7rem;
       margin: 20px; }
   .card__flotante {
