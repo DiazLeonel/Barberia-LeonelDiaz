@@ -190,7 +190,7 @@ footer {
     justify-items: center;
     background-image: url(../media/img/papel.jpg);
     background-size: contain;
-    height: 949px;
+    height: 970px;
     margin: auto;
     text-align: center;
     align-content: center;
@@ -209,109 +209,116 @@ footer {
             "grid--hijo3 grid--hijo3 grid--hijo5 grid--hijo4 grid--hijo4 "
             "grid--hijo6 grid--hijo6 grid--hijo6 grid--hijo6 grid--hijo6";
 
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.6rem;
+            font-weight: 500px;
+        }
 
-    }
+        .contacto--h2 {
+            grid-area: contacto--h2;
 
-    .contacto--h2 {
-        grid-area: contacto--h2;
-    }
+            h2 {
+                display: grid;
+                justify-content: center;
+                flex-direction: row;
+                font-size: 3rem;
+                text-align: center;
+                padding-top: 100px;
+                line-height: 1.2;
+            }
+        }
 
-    .contacto--h2 h2 {
-        display: grid;
-        justify-content: center;
-        flex-direction: row;
-        font-size: 3rem;
-        text-align: center;
-        padding-top: 100px;
-    }
 
-    .grid--hijo1 {
-        grid-area: grid--hijo1;
+        .grid--hijo1 {
+            grid-area: grid--hijo1;
 
-        h3 {
+            h3 {
+                font-size: 2rem;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+
+
+        .grid--hijo2 {
+            grid-area: grid--hijo2;
+        }
+
+        .grid--hijo3 {
             padding-top: 50px;
-            padding-bottom: 50px;
+            grid-area: grid--hijo3;
+            text-align: center;
+
+            a {
+                @extend .tdn;
+                color: $orange;
+                background-color: $black;
+                padding: 8px;
+                border-radius: 8px;
+
+                &:hover {
+                    color: $black;
+                    background-color: $orange;
+                }
+            }
+
+            img {
+                height: 70px;
+            }
+
         }
-    }
 
+        .grid--hijo4 {
+            padding-top: 50px;
+            grid-area: grid--hijo4;
+            text-align: center;
 
-    .grid--hijo2 {
-        grid-area: grid--hijo2;
-    }
+            a {
+                @extend .tdn;
+                color: $orange;
+                background-color: $black;
+                padding: 8px;
+                border-radius: 8px;
 
-    .grid--hijo3 {
-        padding-top: 50px;
-        grid-area: grid--hijo3;
-        text-align: center;
+                &:hover {
+                    color: $black;
+                    background-color: $orange
+                }
+            }
 
-        a {
-            @extend .tdn;
-            color: $orange;
-            background-color: $black;
-            padding: 8px;
-            border-radius: 8px;
-
-            &:hover {
-                color: $black;
-                background-color: $orange;
+            img {
+                width: 70px;
             }
         }
 
-        img {
-            height: 70px;
+        .grid--hijo5 {
+            grid-area: grid--hijo5;
         }
 
-    }
-
-    .grid--hijo4 {
-        padding-top: 50px;
-        grid-area: grid--hijo4;
-        text-align: center;
-
-        a {
-            @extend .tdn;
-            color: $orange;
-            background-color: $black;
-            padding: 8px;
-            border-radius: 8px;
-
-            &:hover {
-                color: $black;
-                background-color: $orange
-            }
+        .grid--hijo6 {
+            grid-area: grid--hijo6;
         }
 
-        img {
-            width: 70px;
-        }
-    }
-
-    .grid--hijo5 {
-        grid-area: grid--hijo5;
-    }
-
-    .grid--hijo6 {
-        grid-area: grid--hijo6;
-    }
-
-    .boton__flecha {
-        display: grid;
-        justify-content: center;
-        padding: 50px;
-
-        a {
-            display: flex;
+        .boton__flecha {
+            display: grid;
             justify-content: center;
-            height: 70px;
-            transform: translateY(-20%);
-            transition: 2s;
-            overflow: hidden;
-            transition: 500ms;
+            padding: 50px;
 
-            &:hover {
-                transform: translateY(20%);
+            a {
+                display: flex;
+                justify-content: center;
+                height: 70px;
+                transform: translateY(-20%);
+                transition: 2s;
                 overflow: hidden;
                 transition: 500ms;
+
+                &:hover {
+                    transform: translateY(20%);
+                    overflow: hidden;
+                    transition: 500ms;
+                }
             }
         }
     }
@@ -346,6 +353,7 @@ footer {
         background-position: center;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 3rem;
+        font-weight: 800;
     }
 
     a {
@@ -364,6 +372,9 @@ footer {
     p {
         margin-bottom: 8px;
         background-color: rgb(109, 106, 106);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 800;
+        font-size: 1.1rem;
     }
 
     .h2--padd {
@@ -412,10 +423,14 @@ footer {
 
 
 .section__blog {
-    background-image: url(../media/img/fondoblog.jpg);
+    background: #202020;
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 17%, 0.715), hsla(0, 0%, 16%, 0.701)), url(../media/img/fondoblog.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.701)), url(../media/img/fondoblog.jpg);
     background-position: center;
     background-size: cover;
     height: 969px;
+    font-family: sans-serif;
+    font-weight: 700;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(1, auto);
@@ -439,7 +454,7 @@ footer {
     img {
         width: 250px;
         align-items: center;
-        
+
     }
 
     .section__blog--cards {
@@ -485,9 +500,11 @@ footer {
 
 footer {
     width: 100%;
-    color: #000;
-    font-size: 1.2rem;
-    background-image: url(../media/img/footer.jpg);
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color: #1d1d1d;
     background-size: cover;
     background-position: center;
     height: 190px;
@@ -513,7 +530,7 @@ footer {
 
 
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .grid--nav ul {
         display: flex;
         flex-direction: column;
@@ -605,7 +622,7 @@ footer {
 
 
 
-@media (min-width: 426px) and (max-width: 800px) {
+@media (min-width: 480px) and (max-width: 800px) {
 
     .grid--nav ul {
         display: flex;
@@ -697,4 +714,3 @@ footer {
         }
     }
 }
-
