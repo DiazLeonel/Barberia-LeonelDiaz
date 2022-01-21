@@ -326,6 +326,8 @@ footer {
       display: flex;
       justify-content: center;
       margin-top: 80px; }
+      footer .footer--contenedor .footer__contenedor--items li {
+        list-style: none; }
       footer .footer--contenedor .footer__contenedor--items img {
         width: 40px;
         margin-left: 20px; }

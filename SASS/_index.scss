@@ -476,7 +476,9 @@ footer {
             display: flex;
             justify-content: center;
             margin-top: 80px;
-
+            li {
+                list-style: none;
+            }
             img {
                 width: 40px;
                 margin-left: 20px;
