@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 /* INDEX */
 
 body {
@@ -13,7 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     line-height: 2.4rem;
-    font-family: 'Merienda', cursive;
+    font-family: "Merienda", cursive;
     width: 100%;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);
@@ -22,7 +21,6 @@ body {
         "main"
         "footer";
 }
-
 
 header {
     grid-area: header;
@@ -36,8 +34,6 @@ footer {
     grid-area: footer;
 }
 
-
-
 /* MENU */
 
 .grid--nav {
@@ -48,8 +44,7 @@ footer {
     justify-content: center;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(1, auto);
-    grid-template-areas:
-        "img--header";
+    grid-template-areas: "img--header";
     padding-top: 20px;
     margin: auto;
     padding-left: auto;
@@ -78,10 +73,9 @@ footer {
 
     ul {
         list-style: none;
-
     }
 
-    #menu li>a {
+    #menu li > a {
         background-color: #727272;
         color: #fff;
         padding: 10px;
@@ -90,23 +84,18 @@ footer {
         min-width: 100px;
     }
 
-    #menu li>a:hover {
+    #menu li > a:hover {
         color: #000;
         background-color: #eaeaea;
     }
 
-    #menu>li {
+    #menu > li {
         float: left;
-        text-align: center
+        text-align: center;
     }
-
-
 }
 
-
-
 /* MAIN PRIMER SECTION */
-
 
 .primero {
     background-color: rgba(122, 120, 120, 0.651);
@@ -128,7 +117,7 @@ footer {
         display: grid;
         justify-content: center;
         font-size: 2rem;
-        font-family: 'Oswald', sans-serif;
+        font-family: "Oswald", sans-serif;
         padding: 20px;
         color: #000000;
     }
@@ -148,12 +137,10 @@ footer {
 
             &:hover {
                 color: $black;
-                background-color: $orange
+                background-color: $orange;
             }
         }
     }
-
-
 
     .boton__flecha {
         display: grid;
@@ -176,14 +163,9 @@ footer {
             }
         }
     }
-
-
 }
 
-
-
 /* MAIN SEGUNDO SECTION */
-
 
 .section__index--contacto {
     display: grid;
@@ -194,7 +176,6 @@ footer {
     margin: auto;
     text-align: center;
     align-content: center;
-
 
     .grid--padre {
         width: 80%;
@@ -210,7 +191,7 @@ footer {
             "grid--hijo6 grid--hijo6 grid--hijo6 grid--hijo6 grid--hijo6";
 
         p {
-            font-family: 'Times New Roman', Times, serif;
+            font-family: "Times New Roman", Times, serif;
             font-size: 1.6rem;
             font-weight: 500px;
         }
@@ -229,7 +210,6 @@ footer {
             }
         }
 
-
         .grid--hijo1 {
             grid-area: grid--hijo1;
 
@@ -239,7 +219,6 @@ footer {
                 padding-bottom: 50px;
             }
         }
-
 
         .grid--hijo2 {
             grid-area: grid--hijo2;
@@ -266,7 +245,6 @@ footer {
             img {
                 height: 70px;
             }
-
         }
 
         .grid--hijo4 {
@@ -283,7 +261,7 @@ footer {
 
                 &:hover {
                     color: $black;
-                    background-color: $orange
+                    background-color: $orange;
                 }
             }
 
@@ -322,15 +300,9 @@ footer {
             }
         }
     }
-
 }
 
-
-
-
-
 /* SECTION FOTOS DE CORTES */
-
 
 .container4 {
     background-image: url(../media/img/fondoCortes.jpg);
@@ -351,7 +323,8 @@ footer {
         background-color: rgba(128, 128, 128, 0.575);
         padding: 15px;
         background-position: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+            "Helvetica Neue", sans-serif;
         font-size: 3rem;
         font-weight: 800;
     }
@@ -366,13 +339,13 @@ footer {
             background-color: rgb(243, 169, 31);
             color: rgb(95, 94, 94);
         }
-
     }
 
     p {
         margin-bottom: 8px;
         background-color: rgb(109, 106, 106);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+            "Helvetica Neue", sans-serif;
         font-weight: 800;
         font-size: 1.1rem;
     }
@@ -409,22 +382,15 @@ footer {
         width: 250px;
         margin: 25px;
         border: 1px solid #eee;
-
-
     }
 }
 
-
-
-
 /* BLOG DE LA BARBERIA */
-
-
-
 
 .section__blog {
     background: #202020;
-    background: -webkit-linear-gradient(to right, hsla(0, 0%, 17%, 0.715), hsla(0, 0%, 16%, 0.701)), url(../media/img/fondoblog.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 17%, 0.715), hsla(0, 0%, 16%, 0.701)),
+        url(../media/img/fondoblog.jpg);
     background: linear-gradient(to right, hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.701)), url(../media/img/fondoblog.jpg);
     background-position: center;
     background-size: cover;
@@ -434,8 +400,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(1, auto);
-    grid-template-areas:
-        "img1 img2 img3";
+    grid-template-areas: "img1 img2 img3";
     justify-content: center;
     align-content: center;
 
@@ -454,7 +419,6 @@ footer {
     img {
         width: 250px;
         align-items: center;
-
     }
 
     .section__blog--cards {
@@ -487,16 +451,9 @@ footer {
             }
         }
     }
-
 }
 
-
-
-
-
 /* FOOTER */
-
-
 
 footer {
     width: 100%;
@@ -528,8 +485,6 @@ footer {
     }
 }
 
-
-
 @media (min-width: 320px) and (max-width: 480px) {
     .grid--nav ul {
         display: flex;
@@ -553,7 +508,6 @@ footer {
         }
     }
 
-
     .section__index--contacto {
         height: 1600px;
 
@@ -572,7 +526,6 @@ footer {
             }
         }
     }
-
 
     .container4 {
         display: flex;
@@ -597,7 +550,6 @@ footer {
         }
     }
 
-
     .section__blog {
         display: flex;
         flex-direction: column;
@@ -609,7 +561,6 @@ footer {
         }
     }
 
-
     footer {
         height: 400px;
 
@@ -620,10 +571,7 @@ footer {
     }
 }
 
-
-
 @media (min-width: 480px) and (max-width: 800px) {
-
     .grid--nav ul {
         display: flex;
         flex-direction: column;
@@ -641,7 +589,6 @@ footer {
             text-align: center;
         }
     }
-
 
     .section__index--contacto {
         height: 1400px;
@@ -668,8 +615,6 @@ footer {
         }
     }
 
-
-
     .container4 {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -690,7 +635,6 @@ footer {
         }
     }
 
-
     .section__blog {
         display: flex;
         flex-direction: column;
@@ -702,8 +646,6 @@ footer {
             margin: 0 auto;
         }
     }
-
-
 
     footer {
         height: 400px;

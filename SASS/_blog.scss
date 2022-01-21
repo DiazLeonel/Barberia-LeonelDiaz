@@ -1,6 +1,5 @@
 @import "_mixin";
 
-
 body {
     font-family: sans-serif;
 }
@@ -15,7 +14,6 @@ body {
         margin-bottom: 100px;
     }
 }
-
 
 .main__blog--img {
     display: flex;
@@ -35,11 +33,6 @@ body {
         @include tarj-flot(#644236, 60%, 15px);
     }
 }
-
-
-
-
-
 
 @media (max-width: 800px) {
     .main--blog {

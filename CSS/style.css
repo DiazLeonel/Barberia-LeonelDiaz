@@ -13,7 +13,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   line-height: 2.4rem;
-  font-family: 'Merienda', cursive;
+  font-family: "Merienda", cursive;
   width: 100%;
   grid-template-columns: repeat(1, auto);
   grid-template-rows: repeat(3, auto);
@@ -88,7 +88,7 @@ footer {
     display: grid;
     justify-content: center;
     font-size: 2rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     padding: 20px;
     color: #000000; }
   .primero .botona {
@@ -139,7 +139,7 @@ footer {
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "contacto--h2 contacto--h2 contacto--h2 contacto--h2 contacto--h2" "grid--hijo1 grid--hijo1 grid--hijo1 grid--hijo1 grid--hijo1" "grid--hijo2 grid--hijo2 grid--hijo2 grid--hijo2 grid--hijo2" "grid--hijo3 grid--hijo3 grid--hijo5 grid--hijo4 grid--hijo4 " "grid--hijo6 grid--hijo6 grid--hijo6 grid--hijo6 grid--hijo6"; }
     .section__index--contacto .grid--padre p {
-      font-family: 'Times New Roman', Times, serif;
+      font-family: "Times New Roman", Times, serif;
       font-size: 1.6rem;
       font-weight: 500px; }
     .section__index--contacto .grid--padre .contacto--h2 {
@@ -225,7 +225,7 @@ footer {
     background-color: rgba(128, 128, 128, 0.575);
     padding: 15px;
     background-position: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 3rem;
     font-weight: 800; }
   .container4 a {
@@ -238,7 +238,7 @@ footer {
   .container4 p {
     margin-bottom: 8px;
     background-color: #6d6a6a;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 800;
     font-size: 1.1rem; }
   .container4 .h2--padd {
@@ -468,7 +468,7 @@ footer {
     #main__serv .div__main--primero .main__barba--serv {
       display: block;
       justify-content: space-between;
-      font-family: 'Bebas Neue', cursive;
+      font-family: "Bebas Neue", cursive;
       background-color: rgba(128, 128, 128, 0.563);
       height: 600px;
       width: 85%; }
@@ -496,7 +496,7 @@ footer {
     #main__serv .div__main--primero .main__serv--barba {
       display: block;
       justify-content: space-between;
-      font-family: 'Bebas Neue', cursive;
+      font-family: "Bebas Neue", cursive;
       background-color: rgba(128, 128, 128, 0.563);
       height: 650px;
       width: 85%; }
@@ -524,12 +524,12 @@ footer {
       padding: 20px; }
     #main__serv .main__fotos--barba h3 {
       font-size: 2rem;
-      font-family: 'Bebas Neue', cursive; }
+      font-family: "Bebas Neue", cursive; }
     #main__serv .main__fotos--barba .a--boton {
       justify-content: center;
       padding: 30px;
       font-size: 1.9rem;
-      font-family: 'Bebas Neue', cursive;
+      font-family: "Bebas Neue", cursive;
       color: #5e5e5e; }
       #main__serv .main__fotos--barba .a--boton:hover {
         color: #af7302; }
@@ -696,7 +696,7 @@ body {
   align-items: center; }
   .main--historia--titulos h1 {
     color: #fff;
-    font-family: 'PT Serif', serif;
+    font-family: "PT Serif", serif;
     font-size: 3rem; }
   .main--historia--titulos .corteimg {
     grid-row: 1 / 3;
@@ -711,7 +711,7 @@ body {
     color: #fff;
     font-size: 2.3rem;
     padding-bottom: 20px;
-    font-family: 'PT Serif', serif;
+    font-family: "PT Serif", serif;
     padding-left: 35px; }
 
 /* segundo div */
@@ -727,10 +727,10 @@ body {
   background: #c2c5aa; }
   .card__flotante h3 {
     font-size: 1.8rem;
-    font-family: 'PT Serif', serif; }
+    font-family: "PT Serif", serif; }
   .card__flotante p {
     font-size: 1.2rem;
-    font-family: 'PT Serif', serif; }
+    font-family: "PT Serif", serif; }
   .card__flotante a {
     color: #000;
     border: solid 3px #000;
@@ -749,7 +749,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2.1rem;
-  font-family: 'PT Serif', serif; }
+  font-family: "PT Serif", serif; }
 
 .suenos--2 {
   display: grid;
@@ -761,7 +761,7 @@ body {
   height: 500px;
   background-repeat: no-repeat;
   align-items: center;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.2rem;
   color: #000; }
   .suenos--2 div {
@@ -911,7 +911,7 @@ body {
   box-sizing: border-box; }
 
 html {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
   html #container {
@@ -931,7 +931,7 @@ html {
       text-transform: none; }
     html #container input,
     html #container select {
-      color: #5A5A5A;
+      color: #5a5a5a;
       font: inherit;
       margin: 0; }
     html #container input {
@@ -955,15 +955,15 @@ html {
     html #container .email {
       float: right;
       width: 45%; }
-    html #container input[type='text'],
-    html #container [type='email'],
+    html #container input[type="text"],
+    html #container [type="email"],
     html #container select,
     html #container textarea {
       background: none;
       border: none;
       border-bottom: solid 2px #474544;
       color: #474544;
-      font-size: 1.000em;
+      font-size: 1em;
       font-weight: 400;
       letter-spacing: 1px;
       margin: 0em 0 1.875em 0;
@@ -980,8 +980,8 @@ html {
       -ms-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
-    html #container input[type='text']:focus,
-    html #container [type='email']:focus,
+    html #container input[type="text"]:focus,
+    html #container [type="email"]:focus,
     html #container textarea:focus {
       outline: none;
       padding: 0 0 0.875em 0; }
@@ -1015,7 +1015,7 @@ html {
       color: #474544;
       cursor: pointer;
       display: inline-block;
-      font-family: 'Helvetica', Arial, sans-serif;
+      font-family: "Helvetica", Arial, sans-serif;
       font-size: 0.875em;
       font-weight: bold;
       outline: none;
@@ -1028,7 +1028,7 @@ html {
       transition: all 0.3s; }
       html #container #form_button:hover {
         background: #474544;
-        color: #F2F3EB; }
+        color: #f2f3eb; }
 
 @media screen and (max-width: 768px) {
   #container {
@@ -1051,8 +1051,8 @@ html {
     width: 35px; }
   .underline {
     width: 53px; }
-  input[type='text'],
-  [type='email'],
+  input[type="text"],
+  [type="email"],
   select,
   textarea {
     font-size: 0.875em; } }

@@ -7,7 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 html {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
@@ -33,7 +33,7 @@ html {
 
         input,
         select {
-            color: #5A5A5A;
+            color: #5a5a5a;
             font: inherit;
             margin: 0;
         }
@@ -71,15 +71,15 @@ html {
             width: 45%;
         }
 
-        input[type='text'],
-        [type='email'],
+        input[type="text"],
+        [type="email"],
         select,
         textarea {
             background: none;
             border: none;
             border-bottom: solid 2px #474544;
             color: #474544;
-            font-size: 1.000em;
+            font-size: 1em;
             font-weight: 400;
             letter-spacing: 1px;
             margin: 0em 0 1.875em 0;
@@ -98,8 +98,8 @@ html {
             transition: all 0.3s;
         }
 
-        input[type='text']:focus,
-        [type='email']:focus,
+        input[type="text"]:focus,
+        [type="email"]:focus,
         textarea:focus {
             outline: none;
             padding: 0 0 0.875em 0;
@@ -111,7 +111,8 @@ html {
         }
 
         select {
-            background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+            background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png") no-repeat
+                right;
             outline: none;
             -moz-appearance: none;
             -webkit-appearance: none;
@@ -153,7 +154,7 @@ html {
             color: #474544;
             cursor: pointer;
             display: inline-block;
-            font-family: 'Helvetica', Arial, sans-serif;
+            font-family: "Helvetica", Arial, sans-serif;
             font-size: 0.875em;
             font-weight: bold;
             outline: none;
@@ -167,25 +168,11 @@ html {
 
             &:hover {
                 background: #474544;
-                color: #F2F3EB;
+                color: #f2f3eb;
             }
         }
-
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 768px) {
     #container {
@@ -226,8 +213,8 @@ html {
         width: 53px;
     }
 
-    input[type='text'],
-    [type='email'],
+    input[type="text"],
+    [type="email"],
     select,
     textarea {
         font-size: 0.875em;
